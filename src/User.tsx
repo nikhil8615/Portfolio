@@ -15,7 +15,7 @@ const Info = {
     "Frontend Developer",
     "Open Source Contributor",
   ],
-  bio: "I'm a GET THINGS DONE Full Stack Developer with 2 years of experience in React, Next.js, Node.js, and Python. Skilled in building scalable web applications, optimizing performance, and implementing secure systems. Experienced in delivering impactful projects in fast-paced environments.",
+  bio: "I'm a GET THINGS DONE Full Stack Developer with 6 months of experience in React, Next.js, Node.js, and Python. Skilled in building scalable web applications, optimizing performance, and implementing secure systems. Experienced in delivering impactful projects in fast-paced environments.",
   resume_name: "nikhil_resume_gmail.pdf",
 };
 
@@ -66,7 +66,25 @@ const ProjectInfo = [
     github: "https://github.com/nikhil8615/Gemini-clone",
   },
   {
-    title: "Article Summarizer AI App",
+    title: "Ecommerce App",
+    desc: [
+      "An e-commerce app with frontend for browsing and ordering products, user login/signup, multiple payment options, order tracking, and an admin panel for managing products and user orders.",
+      "An e-commerce app featuring real-time inventory management, user-friendly product search, secure checkout, and admin dashboard for managing orders, customers, and analytics",
+    ],
+    image: "ss.png",
+    live: true,
+    technologies: [
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "Express.js",
+    ],
+    link: "https://ecommerce-app-frontend-dusky.vercel.app/",
+    github: "https://github.com/nikhil8615/ecommerce-app",
+  },
+  {
+    title: "Tour and Travel App",
     desc: [
       "A responsive, beautiful UI/UX with a nice touch of glass morphism using Tailwind CSS",
       "Utilizes advanced RTK query API requests that fire on condition",
@@ -102,6 +120,7 @@ const ProjectInfo = [
     link: "https://restraunt-pink.vercel.app/",
     github: "https://github.com/nikhil8615/Restraunt",
   },
+
   {
     title: "Hardhat Fund Me Dapp",
     desc: [
